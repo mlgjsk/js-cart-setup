@@ -17,6 +17,7 @@
 			//console.log(event.target);
 
 			if (event.target.parentElement.classList.contains('store-item-icon')) {
+				let fullPath = event.target.parentElement.previousElementSibling.src;
 			}
 		});
 	});
